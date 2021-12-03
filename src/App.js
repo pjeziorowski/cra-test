@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+const msg = process.env.REACT_APP_MSG
+
 function App() {
+  console.log(msg)
   return (
     <div className="App">
       <header className="App-header">
@@ -15,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {msg}
         </a>
       </header>
     </div>
