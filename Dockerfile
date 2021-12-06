@@ -2,8 +2,6 @@
 # a custom Docker Image with this Dockerfile
 FROM node:10
 
-ARG MSG
-
 # A directory within the virtualized Docker environment
 # Becomes more relevant when using Docker Compose later
 WORKDIR /usr/src/app
